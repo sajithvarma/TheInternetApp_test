@@ -7,3 +7,5 @@ Feature: Login to The Internet Page
     #as "tomsmith" and "SuperSecretPassword!"
     When I click the Login button
     Then the Secure Area Page is opened
+
+    #test
