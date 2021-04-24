@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-the-internet-page;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login with Valid Credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The login page with title \"The Internet\" is open",
+            "match": {
+              "location": "features/step_definitions/login_step.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter \"valid\" user",
+            "match": {
+              "location": "features/step_definitions/login_step.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click the Login button",
+            "match": {
+              "location": "features/step_definitions/login_step.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the Secure Area Page is opened",
+            "match": {
+              "location": "features/step_definitions/login_step.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-the-internet-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login to The Internet Page",
+    "tags": [],
+    "uri": "features/Login.feature"
+  }
+]
